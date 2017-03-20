@@ -3,6 +3,16 @@
 	"EngineAssociation": "4.13",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "SimpleServerBrowser",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "Substance",
